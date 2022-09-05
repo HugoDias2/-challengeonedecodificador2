@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crito Chat</title>
+</head>
+
+<body>
+    <div class="gobal">
+        <header>
+            <img class="logo" src="img/Vector.png" alt="Logo da pagina inicial">
+        </header>
+
+
+        <main>
+            <script src="script.js"></script>
+            <div class="sect1">
+                <textarea name="texto" id="texto" cols="20" rows="5" placeholder="Escreve o texto aqui..."></textarea>
+                <div class="btns">
+                    <button onclick=(Criptografar()) class="btn">Criptografar</button>
+                    <button onclick=(Descriptografar()) class="btn">Descriptografar</button>
+                    <button onclick=(copiarTexto()) class="btn">Copiar</button>
+                    <button onclick=(Apagar()) class="btn">Apagar</button>
+
+                </div>
+            </div>
+            <section class="resultado">
+                 <p id="resul"></p>
+
+                <div id="group">
+                    <div>
+                        <img class="cap" src="img/Capturar.PNG">
+                    </div>
+                    <div>
+                        <img class="frame" src="img/Frame 5.png">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
